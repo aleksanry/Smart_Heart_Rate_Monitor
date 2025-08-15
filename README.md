@@ -65,7 +65,18 @@ MAX30105lib             // SparkFun MAX3010x sensor library
 - Ensure proper power connections (3.3V or 5V)
 - Connect I2C devices to the same bus (SDA/SCL)
 - Add pull-up resistors to button connections
+### 2. Software Upload
+```bash
+# Clone the repository
+git clone https://github.com/Aleksanry/Smart_Heart_Rate_Monitor.git
 
+# Open the Arduino file
+# HR_Monitor_Firmware/HR_Monitor_Firmware.ino
+
+# Select your board: Arduino Nano
+# Select the correct COM port
+# Click Upload
+```
 ### 3. Sensor Calibration
 1. Power on the device
 2. Navigate to **Settings Menu → Sensor Config**
