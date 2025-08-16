@@ -14,10 +14,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 MAX30105 particleSensor;
 
 // Button Pins (based on schematic)
-#define SW1_BTN 2  // SW1 connected to A0
-#define SW2_BTN 3    // SW2 connected to A1  
-#define SW3_BTN 4    // SW3 connected to A2
-#define LED_PIN 12   // LED connected to D7
+#define SW1_BTN 2  // SW1 connected to  D2
+#define SW2_BTN 3    // SW2 connected to D3 
+#define SW3_BTN 4    // SW3 connected to D4
+#define LED_PIN 12   // LED connected to D12
 
 // Button mapping
 #define MENU_BTN SW1_BTN
